@@ -1,6 +1,6 @@
 {
-  "id": "a-unique-id-for-your-ui-extension",
-  "name": "A Unique Name For Your UI Extension",
+  "id": "kds-contentful-ui-extension",
+  "name": "Knowit Developer Summit",
   "srcdoc": "./build/index.html",
-  "fieldTypes": ["Text"]
+  "fieldTypes": ["Text", "Entries"]
 }

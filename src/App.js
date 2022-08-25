@@ -15,9 +15,11 @@ class App extends Component {
     initApi(api => {
       api.window.startAutoResizer();
       this.setState({
+        title: "",
         value: api.field.getValue(),
         api: api
       });
+      console.log(api);
     });
   }
 
