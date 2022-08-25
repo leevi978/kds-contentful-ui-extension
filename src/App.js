@@ -48,8 +48,11 @@ class App extends Component {
         <button
           className="update-button cf-btn-primary"
           onClick={this.handleClickUpdate}
+          style={{
+            backgroundColor: "red"
+          }}
         >
-          Update
+          Update aaa
         </button>
       </div>
     );
